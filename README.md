@@ -1,56 +1,26 @@
-# Saurabh.AICreates — Digital Invitation Template Catalogue
+# Saurabh.AICreates — Digital Wedding Invitations
 
-A scalable catalogue for premium digital invitation designs. The root `index.html` is the shared browsing page for all templates; it is not an individual couple's invitation.
+A catalogue for premium digital wedding invitation orders.
 
-## Shared catalogue page
+## Active templates
 
-- `index.html` — common catalogue landing page for every template
-- `assets/css/styles.css` — responsive design system and card layouts
-- `assets/js/main.js` — catalogue data, search, style/colour filters, sorting and pagination
-- `data/wedding.json` — sample configuration data for a personalised invitation
-- `project-plan.md` — template roadmap and production checklist
+- [Template 01 — Royal Burgundy & Gold](template-01-royal-burgundy-gold/option1.html)
+- [Template 02 — Ivory, Teal & Gold](template-02-ivory-champagne-gold/option1.html)
+- [Template 03 — Royal Blush & Gold](template-03-royal-blush-gold/option1.html)
 
-The catalogue currently contains 10 starter records. It uses a data-driven list, so more records can be added to `templates` in `assets/js/main.js`; search, filters, sorting and pagination work from that data. Page sizes of 12, 24 and 48 are supported. For 200–500+ designs, keep metadata in a JSON data file or API as the collection grows.
+Open the [main catalogue](index.html) to browse the three collections.
 
-## Root-level template folders
+## Template structure
 
-Each template folder lives directly at repository root, not inside a shared `templates/` parent folder:
+Each template is intended to include:
+- `option1.html`: complete invitation preview.
+- `option2.html`: function-wise preview for Sangeet, Haldi, Engagement and Wedding.
+- `image/`: artwork used by the website preview.
+- `video/`: ceremony clips and final invitation video.
+- `README.md`: notes about assets and usage.
 
-1. `template-01-royal-burgundy-gold/`
-2. `template-02-ivory-champagne-gold/`
-3. `template-03-emerald-green-royal/`
-4. `template-04-blush-pink-floral/`
-5. `template-05-midnight-blue-luxury/`
-6. `template-06-rajasthani-heritage/`
-7. `template-07-black-gold-modern/`
-8. `template-08-lavender-dream/`
-9. `template-09-sunset-marigold/`
-10. `template-10-destination-wedding/`
+## Design consistency requirement
 
-Each folder can contain its own `images/`, `video/`, `card/`, invitation page and `README.md`. GitHub does not retain empty folders, so these folders are represented by README files until actual assets are added.
+For paid customer delivery, the website preview, image exports and video must use the same approved master artwork, colours, typography, borders and motifs. Template-02 is based on the supplied two-page Canva PDF; its current SVGs are starter previews, not a pixel-exact export of that PDF. Replace them with exact Canva exports and approved function-specific artwork before selling Template-02 as an exact match.
 
-## Current focus — Template 01
-
-Riya & Aarav are fictional demo names. Four Google Flow clips have been assembled in SceneBuilder. Music is intentionally omitted for now; choose suitable audio when publishing to Instagram.
-
-Planned image assets are four separate 9:16 scenes:
-- Scene 01 — Royal invitation envelope
-- Scene 02 — Royal palace courtyard
-- Scene 03 — Wedding mandap
-- Scene 04 — Final invitation card
-
-Do not use a storyboard poster as a replacement for individual scene files. Upload only approved, actual images and the reviewed MP4.
-
-## Local preview
-
-Open `index.html` in a browser or use the Live Server extension in Visual Studio Code.
-
-## Roadmap
-
-1. Complete and review Template 01 scene images and video.
-2. Upload approved assets to its root-level folder.
-3. Add individual invitation/card experiences in their respective template folders.
-4. Continue through Templates 02–10, then add more designs as needed.
-5. Connect the catalogue to the separate website repository later.
-
-Replace fictional names and placeholder event details before customer delivery.
+Sample names, dates and venues currently shown are demonstration content. Confirm final customer details before producing order deliverables.
