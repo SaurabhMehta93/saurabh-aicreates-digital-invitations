@@ -1,5 +1,10 @@
-# Ivory, Teal & Gold
+# Template-02 — Ivory, Teal & Gold
 
-Customer-facing, view-only preview. `option1.html` shows the main invitation and functions overview. `option2.html` shows individual Sangeet, Haldi, Engagement and Wedding pages. The `image/` directory contains the artwork used by the website previews; `video/` is reserved for matching ceremony clips and final invitation video.
+Based on the supplied two-page Canva invitation PDF. The preview has two views:
 
-**Asset note:** These are coordinated starter SVG designs, not a pixel-exact export of the supplied Canva PDF. Replace with approved exact artwork exports before accepting paid orders for Template-02.
+- `option1.html`: main invitation and functions overview.
+- `option2.html`: function-wise Sangeet, Haldi, Engagement and Wedding pages.
+- `image/`: artwork used by the preview pages.
+- `video/`: location for coordinated ceremony clips and the final invitation video.
+
+**Important:** the current SVGs are coordinated starter artwork, not a pixel-perfect conversion of the supplied PDF. Before taking paid orders for this exact Canva design, replace the Template-02 SVGs with exports/crops made from the original Canva pages and create approved function-specific artwork that matches them.
