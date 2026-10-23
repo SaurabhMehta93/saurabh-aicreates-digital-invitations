@@ -1,26 +1,55 @@
 # Saurabh.AICreates — Digital Invitations
 
-Reusable digital invitation templates by **Saurabh.AICreates**.
+Reusable premium digital invitation templates by **Saurabh.AICreates**.
 
-## Royal Wedding Website Demo
+## Template portfolio
 
-A responsive burgundy-and-antique-gold invitation featuring animated entrance text, floating decorative particles, a subtle gold light sweep, scroll-reveal sections, a live countdown, wedding details and a venue map link.
+All themes are maintained in this repository, with one folder per template (no separate repository required for each theme).
 
-## Preview locally
+1. Royal Burgundy & Gold
+2. Ivory & Champagne Gold
+3. Emerald Green Royal
+4. Blush Pink Floral
+5. Midnight Blue Luxury
+6. Rajasthani Heritage
+7. Black & Gold Modern
+8. Lavender Dream
+9. Sunset Marigold
+10. Destination Wedding
+
+## Current focus: Template 01 — Royal Burgundy & Gold
+
+The first demo uses fictional couple names **Riya & Aarav** and a burgundy, antique-gold and ivory palette. The package is planned to include a website, four separate scene images, a static invitation card, and a reviewed vertical 9:16 cinematic video.
+
+The four Google Flow clips have been assembled in SceneBuilder. Music is intentionally being left out for now; Instagram audio will be selected when posting.
+
+## Repository structure
+
+Each template will have its own folder with relevant assets such as:
+
+- `images/` — individual scene images
+- `video/` — final MP4
+- `card/` — static invitation card
+- `README.md` — template-specific notes
+
+Only upload approved, actual assets. A storyboard poster is not a substitute for four separate scene images. Binary images and videos should be uploaded through GitHub's web interface or Git/Git LFS as appropriate.
+
+## Preview current website locally
 
 Open `index.html` in your browser or use the Live Server extension in Visual Studio Code.
 
-## Customize
+## Customize the website
 
 - `index.html` — couple names, event details, venue and copy
 - `assets/css/styles.css` — colors, typography, responsive design and animations
 - `assets/js/main.js` — countdown date and scroll animations
 
-Current couple names and event details are fictional demo content. Replace them before delivering a customer invitation.
-
 ## Roadmap
 
-1. Interactive scrolling wedding website
-2. Matching cinematic invitation video
-3. Matching invitation image card
-4. Combined premium invitation package
+1. Complete and review Template 01 assets.
+2. Upload the approved Template 01 assets to this repository.
+3. Complete the matching card and reusable customer setup.
+4. Build Templates 02–10 using the same workflow.
+5. Later, connect selected assets to the separate website repository.
+
+Replace all fictional names and placeholder event details before delivering a customer invitation.
