@@ -62,7 +62,7 @@ function cardMarkup(item) {
     <div class="card-content"><div class="card-meta"><span class="template-number">TEMPLATE ${escapeHtml(item.id)}</span><span class="status-tag">Concept</span></div>
       <h3>${escapeHtml(item.name)}</h3><p class="card-description">${escapeHtml(item.description)}</p>
       <div class="card-tags">${tags}</div>
-      <a class="card-link" href="${escapeHtml(item.slug)}/README.md"><span>Explore template details</span><span aria-hidden="true">↗</span></a>
+      <a class="card-link" href="${escapeHtml(item.slug)}/invitation.html"><span>Explore template details</span><span aria-hidden="true">↗</span></a>
     </div></article>`;
 }
 function pageButton(label, page, disabled=false, current=false) {
