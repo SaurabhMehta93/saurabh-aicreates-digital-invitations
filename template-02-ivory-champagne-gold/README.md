@@ -1,6 +1,5 @@
-# Template 02 — Ivory & Champagne Gold
+# Ivory, Teal & Gold
 
-- `invitation.html` — view-only preview page for the supplied Canva design.
-- Original design reference: https://canva.link/ajwtf5mxm93d9u1
+Customer-facing, view-only preview. `option1.html` shows the main invitation and functions overview. `option2.html` shows individual Sangeet, Haldi, Engagement and Wedding pages. The `image/` directory contains the artwork used by the website previews; `video/` is reserved for matching ceremony clips and final invitation video.
 
-The page is intended for viewing only. It does not provide customer editing or customization controls. The invitation preview is embedded from Canva so the supplied design remains the visual source of truth.
+**Asset note:** These are coordinated starter SVG designs, not a pixel-exact export of the supplied Canva PDF. Replace with approved exact artwork exports before accepting paid orders for Template-02.
