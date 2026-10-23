@@ -4,23 +4,27 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f0e5">
-  <meta name="description" content="Ivory and champagne-gold wedding invitation preview.">
-  <title>Ivory & Champagne Gold — Wedding Invitation Preview</title>
+  <meta name="description" content="View the original ivory and champagne-gold wedding invitation design.">
+  <title>Template 02 — Ivory & Champagne Gold</title>
   <style>
     * { box-sizing: border-box; }
-    html, body { margin: 0; min-height: 100%; background: #f7f0e5; }
-    body { min-height: 100vh; }
-    .preview { position: relative; width: 100%; min-height: 100vh; overflow: hidden; }
-    iframe { display: block; width: 100%; height: 100vh; min-height: 720px; border: 0; background: #f7f0e5; }
-    /* Prevent visitors from clicking Canva controls or navigating away from the preview. */
-    .interaction-shield { position: absolute; inset: 0; z-index: 2; background: transparent; }
-    @media (max-width: 600px) {
-      iframe { min-height: 100vh; height: 100vh; }
-    }
+    html, body { margin: 0; min-height: 100%; }
+    body { background: #f7f0e5; color: #4d3b25; font-family: Arial, sans-serif; }
+    .toolbar { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 12px 18px; background: #fffaf1; border-bottom: 1px solid #d8c39b; }
+    .title { font-size: 14px; letter-spacing: .04em; }
+    .open-link { display: inline-block; padding: 10px 15px; border-radius: 3px; background: #9b7942; color: #fff; text-decoration: none; font-size: 13px; font-weight: 600; white-space: nowrap; }
+    .help { margin: 0; padding: 10px 16px; text-align: center; font-size: 13px; line-height: 1.5; background: #f2e7d4; }
+    iframe { display: block; width: 100%; height: calc(100vh - 98px); min-height: 560px; border: 0; background: #f7f0e5; }
+    @media (max-width: 520px) { .toolbar { padding: 10px; } .title { font-size: 12px; } .open-link { padding: 9px 10px; font-size: 12px; } iframe { height: calc(100vh - 112px); min-height: 520px; } }
   </style>
 </head>
 <body>
-  <main class="preview" aria-label="Wedding invitation preview">
+  <header class="toolbar">
+    <div class="title">TEMPLATE 02 · IVORY & CHAMPAGNE GOLD</div>
+    <a class="open-link" href="https://canva.link/ajwtf5mxm93d9u1" target="_blank" rel="noopener noreferrer">Open Original Invitation ↗</a>
+  </header>
+  <p class="help">If the invitation preview below does not load in this browser, use “Open Original Invitation” to view the exact Canva design.</p>
+  <main aria-label="Wedding invitation preview">
     <iframe
       src="https://canva.link/ajwtf5mxm93d9u1"
       title="Original Canva ivory and champagne-gold wedding invitation"
@@ -28,7 +32,6 @@
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen>
     </iframe>
-    <div class="interaction-shield" aria-hidden="true"></div>
   </main>
 </body>
 </html>
