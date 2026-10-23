@@ -1,55 +1,56 @@
-# Saurabh.AICreates — Digital Invitations
+# Saurabh.AICreates — Digital Invitation Template Catalogue
 
-Reusable premium digital invitation templates by **Saurabh.AICreates**.
+A scalable catalogue for premium digital invitation designs. The root `index.html` is the shared browsing page for all templates; it is not an individual couple's invitation.
 
-## Template portfolio
+## Shared catalogue page
 
-All themes are maintained in this repository, with one folder per template (no separate repository required for each theme).
+- `index.html` — common catalogue landing page for every template
+- `assets/css/styles.css` — responsive design system and card layouts
+- `assets/js/main.js` — catalogue data, search, style/colour filters, sorting and pagination
+- `data/wedding.json` — sample configuration data for a personalised invitation
+- `project-plan.md` — template roadmap and production checklist
 
-1. Royal Burgundy & Gold
-2. Ivory & Champagne Gold
-3. Emerald Green Royal
-4. Blush Pink Floral
-5. Midnight Blue Luxury
-6. Rajasthani Heritage
-7. Black & Gold Modern
-8. Lavender Dream
-9. Sunset Marigold
-10. Destination Wedding
+The catalogue currently contains 10 starter records. It uses a data-driven list, so more records can be added to `templates` in `assets/js/main.js`; search, filters, sorting and pagination work from that data. Page sizes of 12, 24 and 48 are supported. For 200–500+ designs, keep metadata in a JSON data file or API as the collection grows.
 
-## Current focus: Template 01 — Royal Burgundy & Gold
+## Root-level template folders
 
-The first demo uses fictional couple names **Riya & Aarav** and a burgundy, antique-gold and ivory palette. The package is planned to include a website, four separate scene images, a static invitation card, and a reviewed vertical 9:16 cinematic video.
+Each template folder lives directly at repository root, not inside a shared `templates/` parent folder:
 
-The four Google Flow clips have been assembled in SceneBuilder. Music is intentionally being left out for now; Instagram audio will be selected when posting.
+1. `template-01-royal-burgundy-gold/`
+2. `template-02-ivory-champagne-gold/`
+3. `template-03-emerald-green-royal/`
+4. `template-04-blush-pink-floral/`
+5. `template-05-midnight-blue-luxury/`
+6. `template-06-rajasthani-heritage/`
+7. `template-07-black-gold-modern/`
+8. `template-08-lavender-dream/`
+9. `template-09-sunset-marigold/`
+10. `template-10-destination-wedding/`
 
-## Repository structure
+Each folder can contain its own `images/`, `video/`, `card/`, invitation page and `README.md`. GitHub does not retain empty folders, so these folders are represented by README files until actual assets are added.
 
-Each template will have its own folder with relevant assets such as:
+## Current focus — Template 01
 
-- `images/` — individual scene images
-- `video/` — final MP4
-- `card/` — static invitation card
-- `README.md` — template-specific notes
+Riya & Aarav are fictional demo names. Four Google Flow clips have been assembled in SceneBuilder. Music is intentionally omitted for now; choose suitable audio when publishing to Instagram.
 
-Only upload approved, actual assets. A storyboard poster is not a substitute for four separate scene images. Binary images and videos should be uploaded through GitHub's web interface or Git/Git LFS as appropriate.
+Planned image assets are four separate 9:16 scenes:
+- Scene 01 — Royal invitation envelope
+- Scene 02 — Royal palace courtyard
+- Scene 03 — Wedding mandap
+- Scene 04 — Final invitation card
 
-## Preview current website locally
+Do not use a storyboard poster as a replacement for individual scene files. Upload only approved, actual images and the reviewed MP4.
 
-Open `index.html` in your browser or use the Live Server extension in Visual Studio Code.
+## Local preview
 
-## Customize the website
-
-- `index.html` — couple names, event details, venue and copy
-- `assets/css/styles.css` — colors, typography, responsive design and animations
-- `assets/js/main.js` — countdown date and scroll animations
+Open `index.html` in a browser or use the Live Server extension in Visual Studio Code.
 
 ## Roadmap
 
-1. Complete and review Template 01 assets.
-2. Upload the approved Template 01 assets to this repository.
-3. Complete the matching card and reusable customer setup.
-4. Build Templates 02–10 using the same workflow.
-5. Later, connect selected assets to the separate website repository.
+1. Complete and review Template 01 scene images and video.
+2. Upload approved assets to its root-level folder.
+3. Add individual invitation/card experiences in their respective template folders.
+4. Continue through Templates 02–10, then add more designs as needed.
+5. Connect the catalogue to the separate website repository later.
 
-Replace all fictional names and placeholder event details before delivering a customer invitation.
+Replace fictional names and placeholder event details before customer delivery.
