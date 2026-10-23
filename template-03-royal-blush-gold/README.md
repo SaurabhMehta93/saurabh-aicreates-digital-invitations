@@ -2,7 +2,7 @@
 
 - `option1.html`: complete invitation preview.
 - `option2.html`: Sangeet, Haldi, Engagement and Wedding pages.
-- `image/`: matching SVG artwork used by both website views.
-- `video/`: add approved function clips and final invitation video here.
+- `image/`: coordinated SVG artwork used by both views.
+- `video/`: add matching ceremony clips and final invitation video.
 
-These are starter visuals. For commercial delivery, replace the sample SVGs with approved exact design exports before taking orders.
+These are starter visuals for a distinct blush-gold collection. Replace sample artwork/details with approved final designs before commercial delivery.
