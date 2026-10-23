@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06152d"/><stop offset=".52" stop-color="#102e58"/><stop offset="1" stop-color="#061329"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#315887" stop-opacity=".72"/><stop offset="1" stop-color="#07172f" stop-opacity="0"/></radialGradient>
+ <linearGradient id="gold"><stop stop-color="#9b7944"/><stop offset=".5" stop-color="#f2dfaa"/><stop offset="1" stop-color="#a9864e"/></linearGradient>
+ <pattern id="stars" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="13" cy="21" r="2" fill="#e6d6ac" opacity=".48"/><circle cx="71" cy="67" r="1.4" fill="#fff7e5" opacity=".35"/><path d="M47 12v10m-5-5h10" stroke="#e5d3a1" stroke-width="1" opacity=".35"/></pattern>
+</defs>
+<rect width="1080" height="1920" fill="url(#bg)"/><rect width="1080" height="1920" fill="url(#glow)"/><rect width="1080" height="1920" fill="url(#stars)"/>
+<rect x="46" y="46" width="988" height="1828" rx="7" fill="none" stroke="url(#gold)" stroke-width="3"/><rect x="66" y="66" width="948" height="1788" rx="4" fill="none" stroke="#d8bd83" stroke-opacity=".6" stroke-width="1.5"/>
+<g fill="none" stroke="url(#gold)" stroke-width="3">
+ <path d="M110 370V250Q110 150 210 150H870Q970 150 970 250V370"/>
+ <path d="M145 370V255Q145 185 215 185H865Q935 185 935 255V370" stroke-width="1.5"/>
+ <path d="M105 130Q160 80 210 130Q260 180 310 130M770 130Q820 80 870 130Q920 180 975 130" stroke-width="1.6"/>
+ <path d="M110 1520Q170 1450 230 1520Q290 1590 350 1520M730 1520Q790 1450 850 1520Q910 1590 970 1520" stroke-width="1.6"/>
+</g>
+<g fill="#e9d8ac" opacity=".9"><path d="M540 110l12 20 23 5-16 17 2 23-21-10-21 10 2-23-16-17 23-5z"/><circle cx="160" cy="430" r="4"/><circle cx="920" cy="430" r="4"/><circle cx="160" cy="1480" r="4"/><circle cx="920" cy="1480" r="4"/></g>
+<g font-family="Georgia,serif" text-anchor="middle" fill="#fff6e5">
+ <text x="540" y="435" font-size="30" letter-spacing="10" fill="#e9d8ac">THE WEDDING INVITATION</text>
+ <text x="540" y="590" font-size="82" font-style="italic">Partner One</text>
+ <text x="540" y="685" font-size="50" fill="#e9d8ac">&amp;</text>
+ <text x="540" y="785" font-size="82" font-style="italic">Partner Two</text>
+ <path d="M370 850H710" stroke="#d8bd83" stroke-width="2"/>
+ <text x="540" y="925" font-size="29" letter-spacing="5" fill="#e9d8ac">TOGETHER WITH THEIR FAMILIES</text>
+ <text x="540" y="1010" font-size="38">invite you to celebrate their wedding</text>
+ <text x="540" y="1150" font-size="54" fill="#e9d8ac">Wedding Date</text>
+ <text x="540" y="1210" font-size="31">Day · Time</text>
+ <path d="M420 1265H660" stroke="#d8bd83" stroke-width="1.5"/>
+ <text x="540" y="1340" font-size="28" letter-spacing="4" fill="#e9d8ac">VENUE</text>
+ <text x="540" y="1395" font-size="30">Venue Name and Address</text>
+ <text x="540" y="1620" font-size="31" font-style="italic">With love and blessings</text>
+ <text x="540" y="1715" font-size="23" letter-spacing="7" fill="#e9d8ac">SAURABH.AICREATES</text>
+</g>
+<g fill="none" stroke="#d8bd83" stroke-width="2" opacity=".75"><path d="M90 90h55M90 90v55M990 90h-55M990 90v55M90 1830h55M90 1830v-55M990 1830h-55M990 1830v-55"/></g>
+</svg>
