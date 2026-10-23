@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#310711"/><stop offset=".5" stop-color="#6d1025"/><stop offset="1" stop-color="#26050c"/></linearGradient>
+ <linearGradient id="gold" x2="1" y2="1"><stop stop-color="#8d5a1b"/><stop offset=".45" stop-color="#f7dc91"/><stop offset="1" stop-color="#a66c20"/></linearGradient>
+ <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fff4d9"/><stop offset="1" stop-color="#e8c995"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#f5c96b" stop-opacity=".28"/><stop offset="1" stop-color="#f5c96b" stop-opacity="0"/></radialGradient>
+ <pattern id="damask" width="90" height="90" patternUnits="userSpaceOnUse"><path d="M45 8 C20 24 20 42 45 50 C70 42 70 24 45 8ZM45 50 C25 58 25 72 45 84 C65 72 65 58 45 50Z" fill="none" stroke="#c58b37" stroke-opacity=".18" stroke-width="2"/></pattern>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1080" height="1920" fill="url(#bg)"/><rect width="1080" height="1920" fill="url(#damask)"/><ellipse cx="540" cy="850" rx="540" ry="700" fill="url(#glow)"/>
+<rect x="28" y="28" width="1024" height="1864" rx="8" fill="none" stroke="url(#gold)" stroke-width="5"/><rect x="48" y="48" width="984" height="1824" fill="none" stroke="#e8c477" stroke-opacity=".65" stroke-width="2"/>
+<g fill="none" stroke="url(#gold)" stroke-width="4">
+ <path d="M65 260 Q65 100 220 100 Q145 155 105 245 Q180 180 260 180 Q200 230 180 290 Q120 260 65 300Z"/>
+ <path d="M1015 260 Q1015 100 860 100 Q935 155 975 245 Q900 180 820 180 Q880 230 900 290 Q960 260 1015 300Z"/>
+ <path d="M65 1600 Q65 1760 220 1760 Q145 1705 105 1615 Q180 1680 260 1680 Q200 1630 180 1570 Q120 1600 65 1560Z"/>
+ <path d="M1015 1600 Q1015 1760 860 1760 Q935 1705 975 1615 Q900 1680 820 1680 Q880 1630 900 1570 Q960 1600 1015 1560Z"/>
+</g>
+<path d="M540 95 C420 220 315 230 260 370 C210 500 300 590 300 720 L300 1360 Q300 1530 420 1580 L660 1580 Q780 1530 780 1360 L780 720 C780 590 870 500 820 370 C765 230 660 220 540 95Z" fill="#000" opacity=".25" filter="url(#shadow)"/>
+<path d="M540 115 C420 240 330 255 285 380 C240 500 325 585 325 720 L325 1340 Q325 1495 430 1540 L650 1540 Q755 1495 755 1340 L755 720 C755 585 840 500 795 380 C750 255 660 240 540 115Z" fill="url(#paper)" stroke="url(#gold)" stroke-width="10"/>
+<path d="M540 145 C430 255 355 275 315 390 C275 500 355 595 355 720 L355 1325 Q355 1460 445 1500 L635 1500 Q725 1460 725 1325 L725 720 C725 595 805 500 765 390 C725 275 650 255 540 145Z" fill="none" stroke="#b98232" stroke-width="2"/>
+<g fill="url(#gold)" stroke="#8e5a20" stroke-width="1.5">
+ <path d="M540 175 l20 35 39 7 -28 27 7 39 -38 -19 -38 19 7 -39 -28 -27 39 -7Z"/>
+ <path d="M435 340 Q485 295 540 340 Q595 295 645 340 Q595 370 540 355 Q485 370 435 340Z"/>
+ <path d="M420 1175 Q480 1120 540 1175 Q600 1120 660 1175 Q600 1210 540 1190 Q480 1210 420 1175Z"/>
+</g>
+<g fill="#5b1422" font-family="Georgia,serif" text-anchor="middle">
+ <text x="540" y="475" font-size="32" font-style="italic" letter-spacing="2">A celebration of love</text>
+ <text x="540" y="680" font-size="104" letter-spacing="7">RIYA</text>
+ <text x="540" y="790" font-size="110" fill="#b07b2b" font-style="italic">&amp;</text>
+ <text x="540" y="900" font-size="104" letter-spacing="6">AARAV</text>
+ <text x="540" y="1080" font-size="38" letter-spacing="5">12 DECEMBER 2026</text>
+ <text x="540" y="1275" font-size="31" letter-spacing="6">SAVE THE DATE</text>
+ <text x="540" y="1365" font-size="23" letter-spacing="3">WE AWAIT YOUR PRESENCE</text>
+</g>
+<g fill="none" stroke="url(#gold)" stroke-width="3">
+ <path d="M360 535 H485 M595 535 H720"/><path d="M360 990 H470 M610 990 H720"/>
+ <path d="M390 1310 H490 M590 1310 H690"/>
+ <path d="M540 500 l14 15 -14 15 -14 -15Z"/><path d="M540 955 l14 15 -14 15 -14 -15Z"/>
+</g>
+<g fill="#9e1831" stroke="url(#gold)" stroke-width="2">
+ <path d="M120 120 C65 85 75 35 120 70 C160 25 200 80 120 120Z"/><path d="M960 120 C905 85 915 35 960 70 C1000 25 1040 80 960 120Z"/>
+ <path d="M120 1800 C65 1765 75 1715 120 1750 C160 1710 200 1760 120 1800Z"/><path d="M960 1800 C905 1765 915 1715 960 1750 C1000 1710 1040 1760 960 1800Z"/>
+</g>
+<text x="540" y="1830" font-family="Georgia,serif" font-size="22" fill="#e9c779" text-anchor="middle" letter-spacing="5">A ROYAL WEDDING INVITATION</text>
+</svg>
