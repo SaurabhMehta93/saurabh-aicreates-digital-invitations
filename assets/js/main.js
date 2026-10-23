@@ -11,6 +11,8 @@ const templates = [
   {id:"08",name:"Lavender Dream",slug:"template-08-lavender-dream",style:"Dreamy",color:"Lavender",palette:["#aaa0d5","#76699e","#f2eafb"],accent:"#fff0d4",text:"#fff8ff",description:"A soft lavender and lilac atmosphere with dreamy, delicate styling.",tags:["Dreamy","Soft","Romantic"],featured:true,year:2026},
   {id:"09",name:"Sunset Marigold",slug:"template-09-sunset-marigold",style:"Floral",color:"Orange",palette:["#9d3e24","#d66c32","#f2bd63"],accent:"#ffe0a0",text:"#fff2d7",description:"Festive marigold, sunset orange and terracotta for a warm Indian wedding.",tags:["Festive","Floral","Indian"],featured:true,year:2026},
   {id:"10",name:"Destination Wedding",slug:"template-10-destination-wedding",style:"Destination",color:"Multicolour",palette:["#17565a","#55a0a0","#edc98d"],accent:"#ffe8b4",text:"#fff9e9",description:"A destination-inspired concept for beach, palace and resort celebrations.",tags:["Destination","Travel","Cinematic"],featured:true,year:2026}
+  ,{id:"11",name:"template11-Blue Aesthetic The Wedding Invitation Flyer",slug:"template11-blue-aesthetic-the-wedding-invitation-flyer",style:"Modern",color:"Blue",palette:["#071a35","#173b69","#d8bd83"],accent:"#e8d5a6",text:"#fff8ec",description:"Blue aesthetic wedding invitation with elegant ivory details and restrained antique-gold accents; available as an editable image layout and a vertical video workflow.",tags:["Blue Aesthetic","Wedding Flyer","Image + Video"],featured:true,year:2026}
+
 ];
 
 const elements = {
