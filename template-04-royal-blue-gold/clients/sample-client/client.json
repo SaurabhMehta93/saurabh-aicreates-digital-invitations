@@ -1,0 +1,16 @@
+{
+  "projectId": "sample-client",
+  "clientName": "Sample Client",
+  "templateId": "template-04-royal-blue-gold",
+  "couple": {
+    "groom": "Aarav",
+    "bride": "Riya"
+  },
+  "event": {
+    "date": "20 December 2026",
+    "time": "7:00 PM",
+    "venue": "Surat, Gujarat"
+  },
+  "status": "sample",
+  "note": "Demo data only. Duplicate this folder for each new client and update this file."
+}
